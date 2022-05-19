@@ -1,0 +1,35 @@
+@media (min-width: 481px) {
+                           
+                            .articulo {
+                                       width: 45%;
+                                      }
+                            .barra-navegacion {
+                                               width: 100%;
+                                               display: flex ;
+                                               justify-content: space-between;
+                                              }
+                            .burger-menu {
+                                        display: none ;
+                                        }
+                            .compra-cuotas-tablet {
+                                                   display: block ;
+                                                   margin-left: 10px ;
+                                                   margin-right: 10px ;
+                                                   font-size: 12px;
+                                                  }
+                            .compra-cuotas {
+                                display: none
+                            }
+                            .logo {
+                                width: 10px ;
+                                flex-grow: 1;
+                            }
+                            .buscador {
+                                width: 10px ;
+                                flex-grow: 1;
+                            }
+                            .texto-barra-tablet {
+                                font-size: 12px;
+                            }
+                            
+}

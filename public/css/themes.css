@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all 450ms ;
+ }
+body {
+      font-family: 'Roboto', sans-serif; 
+     }
+h1 {
+    margin:0
+   }
+.text-red {
+        color: red
+}
+.text-yellow {
+              color:#EAC926;
+             }
+.text-blue {
+            color:#03264C;
+           } 
+.text-light-blue {
+                  color:#1259c3;
+                 }
+.text-dark-grey {
+                 color:#666
+                }
+.text-light-grey {
+                  color:#ebebeb;
+                 }
+.text-green {
+             color:#39b54a;
+            }
+.text-white {
+             color:white
+            }
+.bg-yellow {
+            background-color:#EAC926;
+           }
+.bg-blue {
+          background-color:#03264C;
+         } 
+.bg-light-blue {
+                background-color:#1259c3; 
+               }
+.bg-dark-grey {
+               background-color:#666
+              }
+.bg-light-grey {
+                background-color:#ebebeb;
+               }
+.bg-green {
+           background-color:#39b54a;
+          }
+.bg-white {
+        background-color: white;
+}
+.bg-red {
+        background-color: red;
+}
+.cuerpo {
+         font-size:12px ;
+        }
+.titular {
+          font-size: 24px ;
+         }
+.precios {
+          font-size: 18px ;
+          width: 30%;
+          margin-right: 40px ;
+         }
+.descuentos {
+             font-size: 16px ;
+             width: 70%;
+             color: #39b54a;
+          
+            
+            }
+.descripciones {
+                font-size: 16px ;
+                display: block;
+               }
+.nav-section {
+              padding:0 ;
+              display:flex ;
+              justify-content: space-between;
+             }
+li a {
+      text-decoration : none ;
+      color:black;
+     
+     }
+nav li {
+        list-style: none ;
+        margin-right: 10px;
+       }
+.center-me {
+            text-align:center
+           }
+
+main {
+      margin: auto ;
+      width: 80vw ;
+     }
+.divarticulo {
+               border-top: solid 1px #ebebeb ;
+               padding: 15px ;
+               display: flex;
+               flex-direction: column;
+               position: relative ;
+             }
+body {
+      background-color: #ebebeb ;
+      
+     }
+.articulo {
+           background-color: white;
+           margin-bottom: 10px ;
+           box-shadow: 0px 0px 10px rgb(100, 100, 100);
+           margin: 10px;
+           width: 100%;
+          }
+.truck-icon {
+             display: block;
+             font-size: 16px;
+             padding: 5px;
+             width: 30px;
+             height: 30px;
+             border: 1px solid #39b54a;
+             background-color: #FFF;
+             border-radius: 50%;
+             right: 20px;
+             top: -15px;
+             align-self: flex-end;
+             position: absolute;
+        
+            }
+.divarticulo-flex {
+                   display: flex;
+                   align-items: center;
+                   justify-content: space-around ;
+                   margin-top: 10px;
+                   margin-bottom: 10px;
+                  
+                   
+                  }
+.logo {
+       width: 50%;
+      }
+.buscador {
+           width: 50% ;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+          }
+header {
+        display: flex ;
+        flex-direction: column;
+        padding: 3% ;
+        align-items: center;
+        padding-bottom: 0;
+}
+.cabecera {
+        display: flex ;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        width: 90% ;
+        
+        flex-wrap: wrap;
+}
+.barra-navegacion {
+                   display: none ;
+                   
+                  }
+.compra-cuotas {
+                margin: 10px
+               }
+.icono-mejorado {
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 20px;
+        text-align: center;
+              }
+.burger-menu {
+               margin-top: 15px ;
+               margin-bottom: 10px;
+               }
+
+.articulos {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+                 
+}
+.flex-box-column-center {
+        display: flex ; 
+        flex-direction: column;
+        align-items: center ;
+        margin-top: 20px;
+        width: 80%;
+}
+.lista-sin-estilo {
+        list-style: none
+}
+.footer-grande {
+        font-size: 20px;
+        font-weight: bolder;
+
+}
+footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 20px;
+
+}
+.icono-30px {
+        font-size: 30px;
+}
+.margin-left-2px {
+        margin-left: 2px;
+}
+.width-90pc {
+        width: 90%;
+}
+.height-100pc {
+        height: 100%;
+}
+.width-100vw {
+        width: 100vw;
+}
+.width-10pc {
+        width: 10%;
+}
+.padding-10pc {
+        padding: 0.5%;
+}
+.margin-0 {
+        margin: 0
+}
+.align-self-end {
+        align-self: flex-end;
+}
+.borde-blanco {
+        border: white;
+}
+.border-radius-3px {
+        border-radius: 3px ;
+}
+.max-width-10px {
+        max-width: 10px;
+}
+.grow {
+        flex-grow: 1;
+}
+.dispo-flex {
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+}
+.compra-cuotas-tablet {
+        display: none
+}
+
+.min-width-60px {
+        min-width: 60px ;
+}
+.width-30pc {
+        width: 30%;
+}
+.flex-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+.column {
+        display: flex ;
+        flex-direction: column;
+}
+.main-register {
+        width: 100%;
+        padding: 3%;
+}
+.width-100pc {
+        width: 100%;
+}
+.margin-bottom-10px {
+        margin-bottom: 10px;
+}
+.margin-bottom-5px {
+        margin-bottom: 5px;
+}
+.display-flex {
+        display: flex ;
+}
+.space-around {
+        justify-content: space-around;
+}
+.padding-5px {
+        padding: 5px ;
+}
+.enviar:hover {
+        background-color: #0022AA;
+}
+.margin-top-10px {
+       margin-top: 10px;
+}

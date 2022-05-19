@@ -1,0 +1,39 @@
+@media (min-width: 769px) {
+    .descripciones {
+        display: none
+    } 
+    .articulo {
+        box-shadow: none ;
+        width: 22% ;
+    }
+  
+    .dispo-flex {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .articulo:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .articulo:hover .descripciones {
+        display: block
+    }
+    .truck-icon:hover {
+        transform: rotateZ(-90deg);
+    }
+    .icono-cambia-color:hover {
+        color:#EAC926
+    }
+    .descuentos {
+        font-size: 13px;
+    }
+    main {
+        width: 90vw;
+    }
+    .compra-cuotas-tablet {
+                          font-size: 15px;
+    }
+    .texto-barra-tablet {
+                        font-size: 15px;
+    }
+}
